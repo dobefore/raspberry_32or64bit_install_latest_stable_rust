@@ -8,11 +8,12 @@ git clone https://github.com/dobefore/arm64_install_latest_stable_rust.git && cd
 python3 install.py
 ```
 
+
+# uninstall rust (require rustup to be installed)
+```
+rustup self uninstall 
+```
 # uninstall rustup
 ```
 sudo snap remove rustup
-```
-# uninstall rust
-```
-rustup 
 ```
